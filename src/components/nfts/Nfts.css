@@ -1,0 +1,69 @@
+.main-nft {
+  margin-top: 40px;
+  width: 100%;
+  height: 500px;
+}
+
+.main-logo {
+  height: 140px;
+}
+
+.nft {
+  width: auto;
+  height: 400px;
+  margin: 5px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.images {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #03fca1;
+}
+
+.punkidz {
+  font-family: 'New Rocker', cursive;
+  font-size: 60px;
+}
+
+.meet-the {
+  font-size: 40px;
+  text-align: center;
+  margin: 140px 0 60px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-logo {
+     height: 90px;
+  }
+
+  .nft {
+    width: auto;
+    height: 300px;
+  }
+}
